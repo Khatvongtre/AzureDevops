@@ -1,7 +1,3 @@
-setup:
-	python3 -m venv ~/.flask-ml-service-hiep-nd
-	#source ~/.flask-ml-azure/bin/activate
-	
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
