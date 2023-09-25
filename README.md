@@ -15,13 +15,13 @@ This project demonstrate how to manage and devlop a python project using CI/CD w
 #### Project cloned into Azure Cloud Shell and test
 * Open Cloud shell using bash and clone project then go to project folder:
 
-`$ git clone https://github.com/Khatvongtre/flask-ml-service-hiep-nd.git`
+`$ git clone https://github.com/TylerLaTruong/AzureDevops.git`
 
 or
 
-`$ git clone git@github.com:Khatvongtre/flask-ml-service-hiep-nd.git`
+`$ git clone git@github.com:TylerLaTruong/AzureDevops.git`
 
-`$ cd flask-ml-service-hiep-nd`
+`$ cd AzureDevops`
 
 ![Architecture Diagram](./Images/CloneCode.png )
 
@@ -38,7 +38,7 @@ After above step you see dependencies are installed, lint rate 10/10 and tests a
 #### Project running on Azure App Service
 
 * You can deploy this project direct to azure using command:
-`$az webapp up -n "devops-hiepnd" --runtime "PYTHON:3.8"`
+`$az webapp up -n "truonglv9-devops" --runtime "PYTHON:3.8"`
 
 And see the result deploy successfully:
 ![Architecture Diagram](./Images/DeploySuccess.png )
