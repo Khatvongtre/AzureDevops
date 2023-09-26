@@ -38,7 +38,7 @@ After above step you see dependencies are installed, lint rate 10/10 and tests a
 #### Project running on Azure App Service
 
 * You can deploy this project direct to azure using command:
-`$az webapp up -n "truonglv9-devops" --runtime "PYTHON:3.8"`
+`$az webapp up -n "truonglv9-devops" --runtime "PYTHON:3.9"`
 
 And see the result deploy successfully:
 ![Architecture Diagram](./Images/DeploySuccess.png )
@@ -65,7 +65,7 @@ $ chmod 774 ./make_predict_azure_app.sh
 Note: I use the **LinearRegression** model, if you use other models the result can be different.
 
 * Output of streamed log files from deployed application
-`az webapp log tail -g ODL-clouddevops-216115 -n devops-hiepnd`
+`az webapp log tail -g ODL-clouddevops-216115 -n truonglv9-devops`
 
 ![Architecture Diagram](./Images/Logs.png)
 
